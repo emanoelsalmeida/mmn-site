@@ -1,0 +1,246 @@
+*{
+    margin:0;
+    padding: 0;
+    font-family: 'Montserrat', sans-serif;
+}
+
+header img{
+    width: 15vw;
+    display: block;
+    margin: 20px auto;
+}
+
+.p1{
+    background-color: #4b633f;
+}
+.p1-box{
+    display: flex;
+    flex-direction: column;
+    grid-template-columns: 100%;
+    justify-content: center;
+    align-items: center;
+    padding: 30px;
+}
+
+.p1-item h1{
+    text-align: center;
+    color: #fb9900;
+    font-weight: 700;
+    font-size: 2.2em;
+}
+.p1-item h3{
+    text-align: center;
+    display: block;
+    margin: 30px auto;
+    color: #fefefe;
+    width: 60%;
+    font-weight: 400;
+    font-size: 1.4em;
+}
+.p1-item h3 b{
+    font-weight: 700;
+
+}
+.p1-item h2{
+    text-align: center;
+    color: white;
+    font-weight: 700;
+    font-size: 1.5em;
+    margin: 30px 0;
+}
+.p1-item iframe{
+    width: 60%;
+    height: 60vh;
+    border: none;
+    border-radius: 15px;
+    display: block;
+    margin: 0 auto;
+}
+.p1-item:nth-child(2){
+   display: flex;
+}
+.p1-item .b1{
+    background-color:#fb9900;
+    color:white;
+    text-align: center;
+    width: 25vw;
+    height: 10vh;
+    font-size: 1.4em;
+    cursor: pointer;
+    text-transform: uppercase;
+    margin: 30px 30px;
+    border: none;
+    font-weight: 700;
+
+}
+.p1-item .b2{
+    background-color:#4054b3;
+    color:white;
+    text-align: center;
+    width: 25vw;
+    height: 10vh;
+    font-size: 1.4em;
+    cursor: pointer;
+    text-transform: uppercase;
+    margin: 30px 30px;
+    border: none;
+    font-weight: 700;
+
+}
+.p2 h1{
+    font-size: 2.4em;
+    text-align: center;
+    margin: 50px 0;
+    font-weight: 700;
+}
+
+.p2-box{
+    display: flex;
+    flex-direction: column;
+    grid-template-columns: 100%;
+    justify-content: center;
+    align-items: center;
+}
+.p2-item{
+    margin: 10px;
+}
+.p2-box-2{
+    display: flex;
+    flex-direction: column;
+    grid-template-columns: 100%;
+    justify-content: center;
+    align-items: center;
+}
+.p2-item-2{
+    margin: 10px;
+}
+.p3 h1{
+    font-weight: 700;
+}
+
+.p3, .p5{
+    background-color: #eaeaea;
+}
+.p3-box{
+    display: grid;
+    grid-template-columns: 30% 35%;
+    justify-content: center;
+    align-items: flex-start;
+    padding: 50px 0;
+}
+.p3-item p{
+font-size: .9em;
+font-weight: 400;
+color: #7a7a7a;
+}
+.p3-item img{
+    width: 25vw;
+    display: flex;
+    align-self: flex-start;
+}
+
+.p4{
+    background-color: #4b633f;
+}
+.p4 h1{
+    font-size: 2.4em;
+    text-align: center;
+    padding: 30px 0;
+    font-weight: 700;
+    color: white;
+}
+.p5-box{
+    display: flex;
+    flex-direction: column;
+    grid-template-columns: 100%;
+    justify-content: center;
+    align-items: center;
+    padding: 50px 0;
+}
+.p5-item iframe{
+    border: none;
+    border-radius: 15px;
+    display: block;
+    margin: 0 auto;
+}
+.p5-item:nth-child(2){
+    display: flex;
+ }
+ .p5-item .b1{
+     background-color:#fb9900;
+     color:white;
+     text-align: center;
+     width: 25vw;
+     height: 10vh;
+     font-size: 1.4em;
+     cursor: pointer;
+     text-transform: uppercase;
+     margin: 30px 30px;
+     border: none;
+     font-weight: 700;
+
+ }
+ .p5-item .b2{
+     background-color:#4054b3;
+     color:white;
+     text-align: center;
+     width: 25vw;
+     height: 10vh;
+     font-size: 1.4em;
+     cursor: pointer;
+     text-transform: uppercase;
+     margin: 30px 30px;
+     border: none;
+     font-weight: 700;
+ }
+
+ .p5-item img{
+     width: 70vw;
+ }
+
+
+ footer p{
+     padding: 10px 0;
+     text-align: center;
+ }
+ footer p a{
+     text-decoration: none;
+     color:#4b633f;
+ }
+
+ @media screen and (max-width: 900px){
+    header img{
+        width: 35vw;
+        display: block;
+        margin: 20px auto;
+    }
+    .p1-item iframe, .p5-item iframe{
+        width: 90%;
+        height: 19vh;
+        border: none;
+        border-radius: 15px;
+        display: block;
+        margin: 0 auto;
+    }
+    .p1-item:nth-child(2), .p5-item:nth-child(2){
+        display: flex;
+        flex-direction: column;
+     }
+     .p1-item .b1, .p1-item .b2, .p5-item .b1, .p5-item .b2{
+         width: 80%;
+         height: 10vh;
+     }
+     .p2-item img, .p2-item-2 img,  .p3-item img{
+         width: 70vw;
+         display: block;
+         margin: 0 auto;
+     }
+     .p2-item-2{
+         flex-wrap: wrap;
+     }
+
+     .p3-box{
+         grid-template-columns: 70%;
+     }
+
+ }
