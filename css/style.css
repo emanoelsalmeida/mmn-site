@@ -165,6 +165,39 @@ margin: 20px 0;
     display: block;
     margin: 0 auto;
 }
+.button{
+    display: flex;
+    justify-content: center;
+}
+.button .b1{
+    background-color:#fb9900;
+    color:white;
+    text-align: center;
+    width: 25vw;
+    height: 10vh;
+    font-size: 1em;
+    cursor: pointer;
+    text-transform: uppercase;
+    margin: 30px 30px;
+    border: none;
+    font-weight: 700;
+
+}
+.button .b2{
+    background-color:#4054b3;
+    color:white;
+    text-align: center;
+    width: 25vw;
+    height: 10vh;
+
+    font-size: 1em;
+    cursor: pointer;
+    text-transform: uppercase;
+    margin: 30px 30px;
+    border: none;
+    font-weight: 700;
+
+}
 
 .p4{
     background-color: #4b633f;
@@ -249,11 +282,11 @@ margin: 20px 0;
         display: block;
         margin: 0 auto;
     }
-    .p1-item:nth-child(2), .p5-item:nth-child(2){
+    .p1-item:nth-child(2), .p5-item:nth-child(2), .button{
         display: flex;
         flex-direction: column;
      }
-     .p1-item .b1, .p1-item .b2, .p5-item .b1, .p5-item .b2{
+     .p1-item .b1, .p1-item .b2, .p5-item .b1, .p5-item .b2, .button .b1, .button .b2{
          width: 80%;
          height: 10vh;
      }
