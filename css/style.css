@@ -71,6 +71,10 @@ header img{
     margin: 30px 30px;
     border: none;
     font-weight: 700;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
 
 }
 .p1-item .b2{
@@ -79,14 +83,15 @@ header img{
     text-align: center;
     width: 25vw;
     height: 10vh;
-
     font-size: 1em;
     cursor: pointer;
     text-transform: uppercase;
     margin: 30px 30px;
     border: none;
     font-weight: 700;
-
+    display: flex;
+    align-items: center;
+    justify-content: center;text-decoration: none;
 }
 .p2 h1{
     font-size: 2.4em;
@@ -181,6 +186,10 @@ margin: 20px 0;
     margin: 30px 30px;
     border: none;
     font-weight: 700;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
 
 }
 .button .b2{
@@ -196,6 +205,10 @@ margin: 20px 0;
     margin: 30px 30px;
     border: none;
     font-weight: 700;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
 
 }
 
@@ -238,6 +251,10 @@ margin: 20px 0;
      margin: 30px 30px;
      border: none;
      font-weight: 700;
+     display: flex;
+     align-items: center;
+     justify-content: center;
+     text-decoration: none;
 
  }
  .p5-item .b2{
@@ -252,6 +269,11 @@ margin: 20px 0;
      margin: 30px 30px;
      border: none;
      font-weight: 700;
+     display: flex;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+
  }
 
  .p5-item img{
@@ -287,8 +309,9 @@ margin: 20px 0;
         flex-direction: column;
      }
      .p1-item .b1, .p1-item .b2, .p5-item .b1, .p5-item .b2, .button .b1, .button .b2{
-         width: 80%;
-         height: 10vh;
+       width: 90vw;
+       height: 15vh;
+       font-size: 1.5em;
      }
      .p2-item img, .p2-item-2 img,  .p3-item img{
          width: 70vw;
